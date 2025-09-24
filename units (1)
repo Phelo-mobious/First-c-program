@@ -1,0 +1,22 @@
+//
+/*
+Name:Phelix Owuor
+Reg no:PA106/G/28838/25
+Description:Program to display all units for this semester
+*/
+#include<stdio.h> //preprocessor directive:scanf( ),
+                            int main ( ) {
+                                
+//main function
+              int main ;
+               printf(" All units for this semester!! \n ") ;
+               printf("Discrete Mathematics \n");
+               printf("Mathematics for sciene \n");
+               printf("Fundamentals of ICT \n");
+               printf("Computer Systems and Organization \n");
+               printf("Communication Skills \n");
+               printf("Introduction to Programming &Problem solving \n");
+               printf("Fundamentals Of System analysis \n");
+return(0);
+               
+}

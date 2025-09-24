@@ -1,0 +1,23 @@
+//single line  comment
+/*
+Name:Phelix Owuor Odira
+Reg no: PA106/G/28838/25
+Description: Program to display my data
+*/
+#include <stdio.h> preprocessor directive scanf( ),
+                      int main ( ) {
+  //main function
+          int main ;
+               printf("My data display!! \n");
+               printf(" my height{173cm} \n");
+               printf("my ID no{0781518267} \n");
+               printf("bank account{ksh.6500} \n");
+               printf("hobby{playing football} \n");
+               printf("weight{65kg} \n");
+return (0);
+               
+      
+  
+                      
+	
+}
