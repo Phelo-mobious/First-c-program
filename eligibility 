@@ -1,0 +1,31 @@
+/*
+Name:Phelix Owuor
+Reg No:28838
+Date:29/092025
+Description:Program to verify students exam eligibility
+*/
+  #include<stdio.h>
+  
+  int main () { 
+      float attendance;
+      float marks1,marks2 ;
+      float average ;
+   //verification of attendance
+      printf("enter your attendance  \n");
+      scanf("%f",&attendance) ;
+  //marks for previous cats
+  printf("marks1for test 1\n");
+  scanf("%f",&marks1) ;
+  printf("marks2 for test 2\n") ;
+  scanf("%f",&marks2) ;
+  //average 
+  average  = (marks1 +marks2) /2;
+  // students eligibility
+     if(attendance >=75 && average >=40) {
+         printf("students is eligible for the final exam \n");
+     }else {
+         printf("student not eligible for final exam");  }
+      
+  return (0); 
+     }
+     

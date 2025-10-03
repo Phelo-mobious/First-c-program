@@ -1,0 +1,26 @@
+/*
+Name:Phelix Owuor
+Reg No:PA106/G/28838/25
+Date:27/09/2025
+Description:Program to display water charges
+*/
+#include<stdio.h>
+
+int main( ) {
+ float units,bill;
+ //prompt the user to enter the number of water units consumed
+      printf("Enter the number of water units consumed:")  ;
+      scanf("%f",&units) ;
+ // bill calculation based on the company rules
+     if(units>=0 &&units<=30) {
+         bill = units * 20 ;
+     }else if (units>=31&&units <=60) {
+         bill =30 *20 +(units -30) * 25 ;
+     }else if (units >60) {
+         bill =30 *20 +30 * 25+ (units -60)* 30;
+     }
+ // display the total bill with two decimal places
+      printf("total bill: .2f Ksh \n" ,bill) ;
+
+return (0) ;
+}

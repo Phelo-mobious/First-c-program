@@ -1,0 +1,35 @@
+/*
+Name:Phelix Owuor
+Reg No: 28838
+Date: 28/09/2025
+Description: Program to display mobile internet purchase
+*/
+  #include<stdio.h>
+  
+  int main () {
+      int choice;
+  //menu display
+    printf("1t\100MB\t\t50 \n");
+    printf("2t\ 500MB\t\t200 \n");
+    printf("3t\1GB\t\t350 \n") ;
+    printf("4t\2GB\t\t600 \n") ;                           //enter you choice
+    printf("enter you preffered choice(1-4): \n");
+    scanf("%d",&choice);
+   // the switch process
+   switch(choice) {
+       case 1:
+       printf("you selected 100MB for 50Ksh.\n ");
+       break;
+       case 2:
+       printf("you selected 500MB for 200Ksh.\n");
+       break;
+       case 3:
+       printf("you selected 1GB for 350Ksh. \n");
+       break ;
+       case 4:
+       printf("you selected 2GB for 600Ksh. \n");
+       break;
+       default:
+       printf("you entered an invalid choice please retry(1-4) \n");      }
+
+  }
