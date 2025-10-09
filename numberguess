@@ -1,0 +1,30 @@
+/*
+Name:Phelix Owuor
+Reg No:28838
+Date:05/10/2025
+Description:Program to display number guessing game
+*/
+#include<stdio.h>
+#include<time.h>
+int main ( ) {
+    int secret,guess,attempts=0;
+    (time(0) );
+    secret = 20+1;
+    // the numbers 1 - 20
+    do {
+        printf("guess your number(1 - 20) ");
+        scanf("%d", &guess);
+           attempts++ ;
+       if(guess>secret)
+       printf("too high! \n");
+    else if(guess<secret)
+       printf("too low! \n");
+       else
+       printf("congratulations! you guessed it in %d attempts \n");
+    }while(guess=secret);
+    return 0;
+    
+        
+
+	
+}
